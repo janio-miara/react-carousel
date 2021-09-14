@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from './Carousel/Carousel'
 import './Slider.css'
-import useCarousel from "../../hooks/useCarousel";
+import useCarousel from "../../hook/useCarousel";
 import {FiChevronLeft, FiChevronRight} from "react-icons/all";
 
 const Slider = ({children}) => {
