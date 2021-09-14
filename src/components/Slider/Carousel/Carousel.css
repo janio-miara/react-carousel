@@ -1,0 +1,31 @@
+.carousel {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  transition: transform 300ms;
+}
+
+.slide {
+  width: 100%;
+  height: auto;
+  flex: 0 0 auto;
+}
+
+.slider {
+  margin-bottom: 1rem;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
